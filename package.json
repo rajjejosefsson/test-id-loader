@@ -1,0 +1,43 @@
+{
+  "name": "test-id-loader",
+  "description": "Remove your test id with Webpack",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Rasmus Josefsson <rajjejosefsson@gmail.com> (@rajjejoseefsson)",
+  "contributors": [
+    {
+      "name": "Rasmus Josefsson",
+      "email": "rajjejosefsson@gmail.com"
+    }
+  ],
+  "repository": "https://github.com/rajjejosefsson/test-id-loader.git",
+  "bugs": "https://github.com/rajjejosefsson/test-id-loader/issues",
+  "homepage": "https://github.com/rajjejosefsson/test-id-loader",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">= 4"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --env jest",
+    "pretest": "rm -rf jest coverage jsdoc-api dmd test/builds",
+    "test": "jest --verbose --coverage",
+    "docs": "jsdoc2md lib/index.js > LOADER.md",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "del": "^4.0.0",
+    "jest": "^24.5.0",
+    "jsdoc-to-markdown": "^4.0.1",
+    "standard": "^12.0.1",
+    "standard-version": "^5.0.2"
+  },
+  "keywords": [
+    "JS",
+    "Loader",
+    "TestId",
+    "Webpack"
+  ]
+}

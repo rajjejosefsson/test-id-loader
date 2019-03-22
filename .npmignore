@@ -1,0 +1,18 @@
+# FILES
+
+.travis.yml
+.gitignore
+.editorconfig
+
+npm-debug.log
+
+# DIRECTORIES
+
+.github
+
+dmd
+test
+jest
+coverage
+jsdoc-api
+node_modules
