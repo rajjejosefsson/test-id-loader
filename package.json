@@ -34,18 +34,19 @@
     "del": "^4.0.0",
     "jest": "^24.5.0",
     "jsdoc-to-markdown": "^4.0.1",
-    "semantic-release": "^15.13.3"
+    "semantic-release": "^15.13.3",
+    "kcd-scripts": "^1.1.1"
+
   },
-  "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   },
   "keywords": [
     "JS",
     "Loader",
     "TestId",
     "Webpack"
-  ],
-  "dependencies": {
-    "kcd-scripts": "^1.1.1"
-  }
+  ]
 }
