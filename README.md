@@ -12,6 +12,8 @@
 npm i -D test-id-loader
 ```
 
+## Example
+
 **webpack.config.js**
 ```js
 module.exports = {
