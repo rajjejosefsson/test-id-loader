@@ -22,6 +22,7 @@
   ],
   "scripts": {
     "commit": "git-cz",
+    "validate": "kcd-scripts validate",
     "lint": "standard --env jest",
     "pretest": "rm -rf jest coverage jsdoc-api dmd test/builds",
     "test": "jest --verbose --coverage",
