@@ -4,6 +4,7 @@
   </a>
   <img width="200" height="200" src="https://webpack.js.org/assets/icon-square-big.svg">
   <h1>Test Id Loader</h1>
+  <p>Removes data-test-id / data-testid from minified bundle</p>
 </div>
 
 ## Install
