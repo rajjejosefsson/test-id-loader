@@ -26,4 +26,6 @@ module.exports = {
 };
 ```
 
-MIT
+## License
+
+MIT © [rajjejosefsson](https://github.com/rajjejosefsson)
